@@ -1,13 +1,3 @@
-# This repo is deprecated!
-
-To get a fresh Botkit starter kit, use the Yeoman generator or [remix a starter kit on Glitch](https://glitch.com/botkit)
-
-```
-npm install -g yo generator-botkit
-yo botkit
-```
-
-
 # Botkit Anywhere
 
 Embed a bot in any web page or app with Botkit for the Web.
