@@ -188,60 +188,256 @@
 
 
   controller.hears(['m.a. fee','ma fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of M.A. course is 4455rs only');
+   bot.reply(message,{
+        text:'fee of M.A. course is 4455rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   	controller.hears(['m.s.w. fee','msw fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of M.S.W. course is 4455rs only');
+	bot.reply(message,{
+        text:'fee of M.S.W. course is 4455rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
    controller.hears(['B.Lib.I.Sc. fee','b.Lib. fees'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of B.Lib.I.Sc. course is 4455rs only');
+	bot.reply(message,{
+        text:'fee of B.Lib.I.Sc. course is 4455rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears(['m.lib. fee','m.Lib. fees'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of M.LIB. course is 4455rs only');
+  	bot.reply(message,{
+        text:'fee of M.LIB. course is 4455rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears(['mca fee','m.c.a fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of M.C.A. course is 9905rs only');
+  bot.reply(message,{
+        text:'fee of M.C.A. course is 9905rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears(['pfdchn fee','p.g.d.c.h.n. fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of P.G.D.C.H.N. course is 8105rs only');
+  bot.reply(message,{
+        text:'fee of P.G.D.C.H.N. course is 8105rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
     controller.hears(['pfdca fee','p.g.d.c.a. fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of P.G.D.C.A. course is 9905rs only');
+	bot.reply(message,{
+        text:'fee of P.G.D.C.A. course is 9905rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears(['ma yoga fee','m.a. yoga fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of M.A. YOGA course is 13125rs only');
+	bot.reply(message,{
+        text:'fee of M.A. YOGA course is 13125rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
    controller.hears(['yoga certificate fee','yoga certificate fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of yoga certificate course is 6000rs only');
+	bot.reply(message,{
+        text:'fee of yoga certificate course is 6000rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
  controller.hears(['yoga fee','yoga fee'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of YOGA course is 12725rs only');
+  bot.reply(message,{
+        text:'fee of YOGA course is 12725rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
  controller.hears(['audiovisual fee','audiovisual fees'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of Audio Visual course is 16605rs only');
+  bot.reply(message,{
+        text:'fee of Audio Visual course is 16605rs only',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears(['girls hostel fee','girl hostel fees'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of Girls hostel is 7750rs only for Six month');
+  bot.reply(message,{
+        text:'fee of Girls hostel is 7750rs only for Six month',
+        quick_replies: [
+			{
+                title: 'hostel facility',
+                payload: 'hostel facility'
+            },
+		]
+      },function() {});
   });
   controller.hears(['boys hostel fee','boy hostel fees'],'message_received', function(bot, message) {
-    bot.reply(message,'fee of boys hostel is 10000rs only for Six month');
+ 
+  bot.reply(message,{
+        text:'fee of boys hostel is 10000rs only for Six month',
+        quick_replies: [
+			{
+                title: 'hostel facility',
+                payload: 'hostel facility'
+            },
+		]
+      },function() {});
   });
 
 
   controller.hears('Light Music','message_received', function(bot, message) {
-    bot.reply(message,'this course is only six month.\nafter 12th you are eligible for this course');
+   bot.reply(message,{
+        text:'this course is only six month.\nafter 12th you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
 	controller.hears('Chhanda Shashtra','message_received', function(bot, message) {
-    bot.reply(message,'this course is only six month.');
+	 bot.reply(message,{
+        text:'this course is only six month.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('Art and Craft','message_received', function(bot, message) {
-    bot.reply(message,'this is one year course.\nafter 12th you are eligible for this course');
+	bot.reply(message,{
+        text:'this is one year course.\nafter 12th you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('Computer Hardware & Network Technology','message_received', function(bot, message) {
-    bot.reply(message,'this course is only six month.\nafter 12th you are eligible for this course.\nthe fees of this course 5000rs only.');
+  bot.reply(message,{
+        text:'this course is only six month.\nafter 12th you are eligible for this course.\nthe fees of this course 5000rs only.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('P.G.D. in Yogik Art and Science','message_received', function(bot, message) {
-    bot.reply(message,'');
   bot.reply(message,{
         text:'this course is one year.\nafter graduation you are eligible for this course.',
         quick_replies: [
@@ -261,8 +457,20 @@
       },function() {});
   });
   controller.hears('P.G.D. in Audio Visual Production (TV)','message_received', function(bot, message) {
-    bot.reply(message,'this course is one year.\n\nafter graduation you are eligible for this course.');
-  });
+  bot.reply(message,{
+        text:'this course is one year.\n\nafter graduation you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
+	});
    controller.hears('P.G.D. in Computer Applications','message_received', function(bot, message) {
      bot.reply(message,{
    text:'this course is one year.\n\nafter graduation you are eligible for this course.',
@@ -304,28 +512,124 @@
   });
   
   controller.hears('B.Ed','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter graduation you are eligible for this course.\Here you can do B.Ed in Maths, Science, English, Sanskrit, Gujarati, Social Science, Primary Education and Hindi.');
+   bot.reply(message,{
+        text:'this course is two year.\n\nafter graduation you are eligible for this course.\Here you can do B.Ed in Maths, Science, English, Sanskrit, Gujarati, Social Science, Primary Education and Hindi.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('B.A.','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th you are eligible for this course.\Here you can do B.A. in English ,Gujarati ,Hindi ,History ,Economics ,Sociology Subjects.');
+   bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th you are eligible for this course.\Here you can do B.A. in English ,Gujarati ,Hindi ,History ,Economics ,Sociology Subjects.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('B.Sc.','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th in Science with B/AB Group you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th in Science with B/AB Group you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('B.Voc.(Food Process Technology)','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th in Science with B/AB Group you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th in Science with B/AB Group you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('B.Voc.(Fashion Designing and Apparel Science)','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th you are eligible for this course.');
-  });
+ bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {}); 
+ });
   controller.hears('Bachelor of Rural Studies','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th you are eligible for this course.');
-  });
+	bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {}); 
+ });
   controller.hears('Bachelor in Physical Education and Sports','message_received', function(bot, message) {
-    bot.reply(message,'this course is three year.\n\nafter 12th you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is three year.\n\nafter 12th you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {}); 
   });    
   controller.hears('Bachelor in Physical Education','message_received', function(bot, message) {
-    bot.reply(message,'this course is one year.\n\nafter graduation you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is one year.\n\nafter graduation you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {}); 
   });
   controller.hears('B.Lib.I.Sc.','message_received', function(bot, message) {
   bot.reply(message,{
@@ -347,13 +651,49 @@
       },function() {});
   });
   controller.hears('M.Ed','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter B.Ed you are eligible for this course.');
-  });
+  bot.reply(message,{
+        text:'this course is two year.\n\nafter B.Ed you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
+	});
   controller.hears('Master of Physical Education and Sports','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter B.P.E.S. you are eligible for this course.');
+    bot.reply(message,{
+        text:'this course is two year.\n\nafter B.P.E.S. you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('Master of Physical Education','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter B.P.Ed you are eligible for this course.');
+      bot.reply(message,{
+        text:'this course is two year.\n\nafter B.P.Ed you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
     controller.hears('M.A.','message_received', function(bot, message) {
 	 bot.reply(message,{
@@ -395,7 +735,6 @@
 	});
  
   controller.hears('M.Lib','message_received', function(bot, message) {
-    bot.reply(message,'');
 	bot.reply(message,{
         text:'this course is one year.\n\nafter B.Lib.I.Sc. you are eligible for this course.',
         quick_replies: [
@@ -416,11 +755,15 @@
  }); 
   controller.hears('M.S.W','message_received', function(bot, message) {
 	bot.reply(message,{
-        text:'this course is two year.\n\nafter Graduation you are eligible for this course.\n\nthis course feild work also.',
+        text:'this course is two year.\n\nafter Graduation you are eligible for this course.\n\nthis course is also contain feild work.',
         quick_replies: [
             {
                 title: 'm.s.w. fee',
                 payload: 'm.s.w. fee'
+            },
+			{
+                title: 'feild work',
+                payload: 'feild work'
             },
 			{
                 title: 'syllabus',
@@ -435,15 +778,63 @@
 
  }); 
   controller.hears('M.Sc. in Microbiology','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter Graduation in Microbiology you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is two year.\n\nafter Graduation in Microbiology you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   }); 
   controller.hears('M.Sc. in Environmental Sciences and Technology','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter Graduation you are eligible for this course.');
+  bot.reply(message,{
+        text:'this course is two year.\n\nafter Graduation you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('MBA in Rural Management','message_received', function(bot, message) {
-    bot.reply(message,'this course is two year.\n\nafter Graduation you are eligible for this course.');
+   bot.reply(message,{
+        text:'this course is two year.\n\nafter Graduation you are eligible for this course.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
   });
   controller.hears('M.Phil and PHD','message_received', function(bot, message) {
-    bot.reply(message,'after Post Graduation you are eligible for this course.\n\nHere you can do M.Phil and PHD in Education ,Gujarati ,Hindi ,Economics ,History ,Sociology ,Social Work ,Gandhian Thoughts ,Science and Non-violence ,Journalism and Mass Communication ,Library and Information Science ,Computer Science ,Microbiology ,Physical Education ,Rural Management ,Population Education ,Peace Studies & Conflict Resolution ,Adult Education Subjects');
-  });  
+   bot.reply(message,{
+        text:'after Post Graduation you are eligible for this course.\n\nHere you can do M.Phil and PHD in Education ,Gujarati ,Hindi ,Economics ,History ,Sociology ,Social Work ,Gandhian Thoughts ,Science and Non-violence ,Journalism and Mass Communication ,Library and Information Science ,Computer Science ,Microbiology ,Physical Education ,Rural Management ,Population Education ,Peace Studies & Conflict Resolution ,Adult Education Subjects.',
+        quick_replies: [
+			{
+                title: 'syllabus',
+                payload: 'syllabus'
+            },
+			{
+                title: 'admission process',
+                payload: 'admission process'
+            },
+		]
+      },function() {});
+	});  
 }

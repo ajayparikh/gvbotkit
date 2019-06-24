@@ -181,134 +181,768 @@ module.exports = function(controller) {
       },function() {});
 
   });
+  
+  
 	controller.hears(['એમ.એ. ફીસ','એમ એ ફીસ'],'message_received', function(bot, message) {
-    bot.reply(message,'એમ.એ. કોર્સ ની ફીસ 4455rs છે. ');
+	bot.reply(message,{
+        text:'એમ.એ. કોર્સ ની ફીસ 4455rs છે. ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.એ.',
+                payload: 'એમ.એ.'
+            },
+		]
+      },function() {});
   });
   	controller.hears(['એમ.એસ.ડબલ્યુ. ફીસ','એમએસડબલ્યુ  ફીસ'],'message_received', function(bot, message) {
-    bot.reply(message,'એમ.એસ.ડબલ્યુ. કોર્સ ની ફીસ 4455rs છે.');
+  bot.reply(message,{
+        text:'એમ.એસ.ડબલ્યુ. કોર્સ ની ફીસ 4455rs છે. ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.એસ.ડબલ્યુ.',
+                payload: 'એમ.એસ.ડબલ્યુ.'
+            },
+		]
+      },function() {});
   });
-   controller.hears(['બી.લિબ. ફીસ','બી.લિબ ફીસ'],'message_received', function(bot, message) {
-   bot.reply(message,'બી.લિબ. કોર્સ ની ફીસ 4455rs છે.');
+   controller.hears(['બી.લિબ. ફીસ','બી.લિબ ફીસ','બી.લિબ.આઇ.એસસી.'],'message_received', function(bot, message) {
+  bot.reply(message,{
+        text:'બી.લિબ.આઇ.એસસી. કોર્સ ની ફીસ 4455rs છે.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'બી.લિબ.આઇ.એસસી.',
+                payload: 'બી.લિબ.આઇ.એસસી.'
+            },
+		]
+      },function() {});
   });
   controller.hears(['એમ.લિબ. ફીસ','એમ.લિબ ફીસ'],'message_received', function(bot, message) {
-   bot.reply(message,'એમ.લિબ. કૌર્સે ની ફીસ 4455rs છે.');
+  bot.reply(message,{
+        text:'એમ.લિબ. કૌર્સે ની ફીસ 4455rs છે.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.લિબ.',
+                payload: 'એમ.લિબ.'
+            },
+		]
+      },function() {});
   });
   controller.hears(['એમ.સી.એ. ફીસ','એમસીએ ફીસ'],'message_received', function(bot, message) {
-    bot.reply(message,'એમ.સી.એ. કોર્સ ની ફીસ 9905rs છે.');
+  bot.reply(message,{
+        text:'એમ.સી.એ. કોર્સ ની ફીસ 9905rs છે. ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.સી.એ.',
+                payload: 'એમ.સી.એ.'
+            },
+		]
+      },function() {});
   });
-  controller.hears(['પી.જી.ડી.સી.એચ.એન. ફીસ','પીજીડીસીએચએન ફીસ'],'message_received', function(bot, message) {
-     bot.reply(message,'પી.જી.ડી.સી.એચ.એન. કોર્સ ની ફીસ 8105rs છે.');
+  controller.hears(['પી.જી.ડી.સી.એચ.એન. ફીસ','પીજીડીસીએચએન ફીસ','પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી ફીસ'],'message_received', function(bot, message) {
+  bot.reply(message,{
+        text:'પી.જી.ડી.સી.એચ.એન. કોર્સ ની ફીસ 8105rs છે.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી',
+                payload: 'પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી'
+            },
+		]
+      },function() {});
   });
-    controller.hears(['પી.જી.ડી.સી.એ. ફીસ','પીજીડીસીએ ફીસ'],'message_received', function(bot, message) {
-     bot.reply(message,'પી.જી.ડી.સી.એ. કોર્સ ની ફીસ 9905rs છે.');
-  });
+   controller.hears(['પી.જી.ડી.સી.એ. ફીસ','પીજીડીસીએ ફીસ'],'message_received', function(bot, message) {
+	bot.reply(message,{
+        text:'પી.જી.ડી.સી.એ. કોર્સ ની ફીસ 9905rs છે.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી. ઇન કમ્પ્યુટર એપ્લિકેશન',
+                payload: 'પી.જી.ડી. ઇન કમ્પ્યુટર એપ્લિકેશન'
+            },
+		 
+		]
+      },function() {}); 
+ });
   controller.hears(['એમ.એ.યોગા ફીસ','એમ.એ. યોગા કોર્સ  ફીસ'],'message_received', function(bot, message) {
-      bot.reply(message,'એમ.એ. યોગા કોર્સ ની ફીસ 13125rs છે');
+  bot.reply(message,{
+        text:'એમ.એ. યોગા કોર્સ ની ફીસ 13125rs છે ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
    controller.hears(['યોગા સર્ટિફિકેટ ફીસ','યોગા સર્ટિફિકેટ કોર્સ ફીસ'],'message_received', function(bot, message) {
-    bot.reply(message,'યોગા સર્ટિફિકેટ કોર્સ ની ફીસ 6000rs છે.');
+  bot.reply(message,{
+        text:'યોગા સર્ટિફિકેટ કોર્સ ની ફીસ 6000rs છે.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
  controller.hears(['ડિપ્લોમા ઇન યોગા ફીસ','ડિપ્લોમા ઇન યોગા કોર્સ ફીસ'],'message_received', function(bot, message) {
-     bot.reply(message,'ડિપ્લોમા ઇન યોગા કોર્સ ફીસ 12725rs છે');
+  bot.reply(message,{
+        text:'ડિપ્લોમા ઇન યોગા કોર્સ ફીસ 12725rs છે ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી. ઇન યોગીક આર્ટ અને સાઇન્સ',
+                payload: 'પી.જી.ડી. ઇન યોગીક આર્ટ અને સાઇન્સ'
+            },
+		]
+      },function() {});
   });
  controller.hears(['ઓડિઓ વિઝ્યુલ ફીસ','ઓડિઓ વિઝ્યુલ કોર્સ ફીસ'],'message_received', function(bot, message) {
-  bot.reply(message,'ઓડિઓ વિઝ્યુલ કોર્સ ની ફીસ 16605rs છે');
+	bot.reply(message,{
+        text:'ઓડિઓ વિઝ્યુલ કોર્સ ની ફીસ 16605rs છે ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી. ઇન ઓડિઓ વિઝ્યુલ પ્રોડક્શન',
+                payload: 'પી.જી.ડી. ઇન ઓડિઓ વિઝ્યુલ પ્રોડક્શન'
+            },
+		]
+      },function() {});
   });
   controller.hears(['કન્યા છાત્રાલય ફીસ'],'message_received', function(bot, message) {
-     bot.reply(message,'કન્યા છાત્રાલય ની 6 મહિના ની  ફીસ 7750rs છે');
+  bot.reply(message,{
+        text:'કન્યા છાત્રાલય ની 6 મહિના ની  ફીસ 7750rs છે ',
+        quick_replies: [
+            {
+                title: 'છાત્રાલય સુવિધા',
+                payload: 'છાત્રાલય સુવિધા'
+            },
+			{
+                title: 'નિયમ',
+                payload: 'નિયમ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
   controller.hears(['હોસ્ટેલ ફીસ','બોય હોસ્ટેલ ફીસ'],'message_received', function(bot, message) {
-	bot.reply(message,'બોય હોસ્ટેલ ની 6 મહિના ની ફીસ 10000rs છે');
+  bot.reply(message,{
+        text:'બોય હોસ્ટેલ ની 6 મહિના ની ફીસ 10000rs છે',
+        quick_replies: [
+            {
+                title: 'છાત્રાલય સુવિધા',
+                payload: 'છાત્રાલય સુવિધા'
+            },
+			{
+                title: 'નિયમ',
+                payload: 'નિયમ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
+  
+  
 	controller.hears('લાઇટ મ્યુજિક','message_received', function(bot, message) {
-    bot.reply(message,'લાઇટ મ્યુજિક કોર્સ 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  	bot.reply(message,{
+        text:'લાઇટ મ્યુજિક કોર્સ 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
 	controller.hears('છંદ શાસ્ત્ર','message_received', function(bot, message) {
-    bot.reply(message,'છંદ શાસ્ત્ર કોર્સ 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  bot.reply(message,{
+        text:'છંદ શાસ્ત્ર કોર્સ 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
   });
   controller.hears('આર્ટ અને ક્રાફ્ટ ','message_received', function(bot, message) {
-    bot.reply(message,'આર્ટ અને ક્રાફ્ટ કોર્સ 1 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  bot.reply(message,{
+        text:'આર્ટ અને ક્રાફ્ટ કોર્સ 1 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
   });
   controller.hears('કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી','message_received', function(bot, message) {
-  	bot.reply(message,'કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+bot.reply(message,{
+        text:'કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી 6 મહિના નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('પી.જી.ડી. ઇન યોગીક આર્ટ અને સાઇન્સ','message_received', function(bot, message) {
-  	bot.reply(message,'પી.જી.ડી. ઇન યોગીક આર્ટ અને સાઇન્સ 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  bot.reply(message,{
+        text:'પી.જી.ડી. ઇન યોગીક આર્ટ અને સાઇન્સ 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'ડિપ્લોમા ઇન યોગા ફીસ',
+                payload: 'ડિપ્લોમા ઇન યોગા ફીસ'
+            },
+		]
+      },function() {});
+
   });
   controller.hears('પી.જી.ડી. ઇન ઓડિઓ વિઝ્યુલ પ્રોડક્શન','message_received', function(bot, message) {
- 	bot.reply(message,'પી.જી.ડી. ઇન ઓડિઓ વિઝ્યુલ પ્રોડક્શન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+bot.reply(message,{
+        text:'પી.જી.ડી. ઇન ઓડિઓ વિઝ્યુલ પ્રોડક્શન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'ઓડિઓ વિઝ્યુલ ફીસ',
+                payload: 'ઓડિઓ વિઝ્યુલ ફીસ'
+            },
+		]
+      },function() {});
+
+	});
    controller.hears('પી.જી.ડી. ઇન કમ્પ્યુટર એપ્લિકેશન','message_received', function(bot, message) {
- 	bot.reply(message,'પી.જી.ડી. ઇન કમ્પ્યુટર એપ્લિકેશન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+ 	bot.reply(message,'');
+bot.reply(message,{
+        text:'પી.જી.ડી. ઇન કમ્પ્યુટર એપ્લિકેશન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી.સી.એ. ફીસ',
+                payload: 'પી.જી.ડી.સી.એ. ફીસ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી','message_received', function(bot, message) {
- 	bot.reply(message,'પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'પી.જી.ડી. ઇન કમ્પ્યુટર હાર્ડવેર અને નેટવર્ક ટેક્નોલોજી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'પી.જી.ડી.સિ.એચ.એન. ફીસ',
+                payload: 'પી.જી.ડી.સિ.એચ.એન. ફીસ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('પી.જી.ડી. ઇન પ્રયોજનમૂલક હિન્દી','message_received', function(bot, message) {
- 	bot.reply(message,'પી.જી.ડી. ઇન પ્રયોજનમૂલક હિન્દી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'પી.જી.ડી. ઇન પ્રયોજનમૂલક હિન્દી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('પી.જી.ડી. ઇન ટ્રાન્સલેસન હિન્દી','message_received', function(bot, message) {
- 	bot.reply(message,'પી.જી.ડી. ઇન ટ્રાન્સલેસન હિન્દી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'પી.જી.ડી. ઇન ટ્રાન્સલેસન હિન્દી 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બી.એડ.','message_received', function(bot, message) {
- 	bot.reply(message,'બી.એડ. 2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો.\n\nઅહિયાં તમે   Maths, Science, English, Sanskrit, Gujarati, Social Science, Primary Education and Hindi આ બધા વિષય મે બ.એડ. કરી સકો છો.');
-  });
+	bot.reply(message,{
+        text:'બી.એડ. 2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો.\n\nઅહિયાં તમે   Maths, Science, English, Sanskrit, Gujarati, Social Science, Primary Education and Hindi આ બધા વિષય મે બ.એડ. કરી સકો છો.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બી.એ.','message_received', function(bot, message) {
- 	bot.reply(message,'બી.એ. 3 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો.\n\nઅહિયાં તમે  English ,Gujarati ,Hindi ,History ,Economics ,Sociology આ બધા વિષય બી.એ. કરી સકે છો.');
-  });
+	bot.reply(message,{
+        text:'બી.એ. 3 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો.\n\nઅહિયાં તમે  English ,Gujarati ,Hindi ,History ,Economics ,Sociology આ બધા વિષય બી.એ. કરી સકે છો.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બી.એસસી.','message_received', function(bot, message) {
- 	bot.reply(message,'બી.એસસી. 3 વર્ષ નો હોય છે \n\n12th સાઇન્સ માં  A/AB ગ્રુપ માં  થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'બી.એસસી. 3 વર્ષ નો હોય છે \n\n12th સાઇન્સ માં  A/AB ગ્રુપ માં  થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બી.વોક.(ફૂડ પ્રોસેસ ટેક્નોલોજી)','message_received', function(bot, message) {
- 	bot.reply(message,'બી.વોક.(ફૂડ પ્રોસેસ ટેક્નોલોજી)  3 વર્ષ નો હોય છે \n\n12th સાઇન્સ માં  A/AB ગ્રુપ માં  થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'બી.વોક.(ફૂડ પ્રોસેસ ટેક્નોલોજી)  3 વર્ષ નો હોય છે \n\n12th સાઇન્સ માં  A/AB ગ્રુપ માં  થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બી.વોક.(ફૈસન ડીસાઇન અને અપેરલ સાઇન્સ)','message_received', function(bot, message) {
-	bot.reply(message,'બી.વોક.(ફૈસન ડીસાઇન અને અપેરલ સાઇન્સ)  3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'બી.વોક.(ફૈસન ડીસાઇન અને અપેરલ સાઇન્સ)  3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('બેચલર ઓફ રૂરલ સ્ટડીસ','message_received', function(bot, message) {
- 	bot.reply(message,'બેચલર ઓફ રૂરલ સ્ટડીસ 3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  bot.reply(message,{
+        text:'બેચલર ઓફ રૂરલ સ્ટડીસ 3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
   });
   controller.hears('બેચલર ઇન ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ','message_received', function(bot, message) {
- 	bot.reply(message,'બેચલર ઇન ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ 3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  bot.reply(message,{
+        text:'બેચલર ઇન ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ 3 વર્ષ નો હોય છે \n\n 12th થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
   });    
   controller.hears('બેચલર ઇન ફિજિકલ એડ્યુકેશન','message_received', function(bot, message) {
-   bot.reply(message,'બેચલર ઇન ફિજિકલ એડ્યુકેશન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+bot.reply(message,{
+        text:'બેચલર ઇન ફિજિકલ એડ્યુકેશન 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+   });
   controller.hears('બી.લિબ.આઇ.એસસી.','message_received', function(bot, message) {
-	bot.reply(message,'બી.લિબ.આઇ.એસસી. 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'બી.લિબ.આઇ.એસસી. 1 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'બી.લિબ.આઇ.એસસી. ફીસ',
+                payload: 'બી.લિબ.આઇ.એસસી. ફીસ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('એમ.એડ.','message_received', function(bot, message) {
-	bot.reply(message,'એમ.એડ. 2 વર્ષ નો હોય છે \n\n બી.એડ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'એમ.એડ. 2 વર્ષ નો હોય છે \n\n બી.એડ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ','message_received', function(bot, message) {
-     	bot.reply(message,'માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ 2 વર્ષ નો હોય છે \n\n બી.પી.એસ.સી. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન અને સ્પોર્ટ્સ 2 વર્ષ નો હોય છે \n\n બી.પી.એસ.સી. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+		});
   controller.hears('માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન','message_received', function(bot, message) {
-       bot.reply(message,'માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન  2 વર્ષ નો હોય છે \n\n બી.પી.એડ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
-  });
+	bot.reply(message,{
+        text:'માસ્ટર ઓફ ફિજિકલ એડ્યુકેશન  2 વર્ષ નો હોય છે \n\n બી.પી.એડ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
+
+	   });
     controller.hears('એમ.એ.','message_received', function(bot, message) {
-        bot.reply(message,'એમ.એ. 2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો \n\nઅહિયાં તમે  Gujarati, Hindi, English, Economics, History, Sociology, Gandhian Thoughts, Journalism and Mass Communication, Jain Study, Human Resource Development,Yoga આ બધા વિષય માં એમ.એ. કરી સકો છો.');
-  }); 
+	bot.reply(message,{
+        text:'એમ.એ. 2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો \n\nઅહિયાં તમે  Gujarati, Hindi, English, Economics, History, Sociology, Gandhian Thoughts, Journalism and Mass Communication, Jain Study, Human Resource Development,Yoga આ બધા વિષય માં એમ.એ. કરી સકો છો.',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.એ. ફીસ',
+                payload: 'એમ.એ. ફીસ'
+            },
+		]
+      },function() {});
+
+		}); 
   controller.hears('એમ.સી.એ.','message_received', function(bot, message) {
-    bot.reply(message,'એમ.સી.એ. 3 વર્ષ નો કોર્સ હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો\n\nઅહિયાં એમ.સી.એ. 2 રીતે થાય છે \n\n1.Regular  2.Lateral\n\n1.આ 3 વર્ષ નો કોર્સ હોય છે .અને આમાં 45 શીટ હોય છે\n\n2.આ કોર્સ 2 વર્ષ નો થાય છે અને આમાં પ્રવેશ માટે પરીક્ષા લેવા માં આવે છે ');
-  });
+	bot.reply(message,{
+        text:'એમ.સી.એ. 3 વર્ષ નો કોર્સ હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો\n\nઅહિયાં એમ.સી.એ. 2 રીતે થાય છે \n\n1.Regular  2.Lateral\n\n1.આ 3 વર્ષ નો કોર્સ હોય છે .અને આમાં 45 શીટ હોય છે\n\n2.આ કોર્સ 2 વર્ષ નો થાય છે અને આમાં પ્રવેશ માટે પરીક્ષા લેવા માં આવે છે  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.સી.એ. ફીસ',
+                payload: 'એમ.સી.એ. ફીસ'
+            },
+		]
+      },function() {});
+
+	});
   controller.hears('એમ.લિબ.','message_received', function(bot, message) {
-     bot.reply(message,'એમ.લિબ.  2 વર્ષ નો હોય છે \n\n બી.લિબ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  	bot.reply(message,{
+        text:'એમ.લિબ.  2 વર્ષ નો હોય છે \n\n બી.લિબ. થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.લિબ. ફીસ',
+                payload: 'એમ.લિબ. ફીસ'
+            },
+		]
+      },function() {});
   }); 
   controller.hears('એમ.એસ.ડબલ્યુ.','message_received', function(bot, message) {
-      bot.reply(message,'એમ.એસ.ડબલ્યુ.  2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો\n\nઆ કોર્સ માં ફીલ્ડવર્ક પણ હોય છે. ');
+  	bot.reply(message,{
+        text:'એમ.એસ.ડબલ્યુ.  2 વર્ષ નો હોય છે \n\n સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો\n\nઆ કોર્સ માં ફીલ્ડવર્ક પણ હોય છે. ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'ક્ષેત્રકાર્ય',
+                payload: 'ક્ષેત્રકાર્ય'
+            },
+			{
+                title: 'એમ.એસ.ડબલ્યુ. ફીસ',
+                payload: 'એમ.એસ.ડબલ્યુ. ફીસ'
+            },
+		]
+      },function() {});
   }); 
   controller.hears('એમ.એસ.સી. ઇન માઇક્રોબાયોલોજી','message_received', function(bot, message) {
-    bot.reply(message,'  એમ.એસ.સી. ઇન માઇક્રોબાયોલોજી  2 વર્ષ નો હોય છે \n\n માઇક્રોબાયોલોજી માં સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  	bot.reply(message,{
+        text:'એમ.એસ.સી. ઇન માઇક્રોબાયોલોજી  2 વર્ષ નો હોય છે \n\n માઇક્રોબાયોલોજી માં સ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   }); 
 
   controller.hears('એમ.એસ.સી. ઇન એનવીરોમેંટલ સાઇન્સ અને ટેક્નોલોજી ','message_received', function(bot, message) {
      bot.reply(message,' એમ.એસ.સી. ઇન એનવીરોમેંટલ સાઇન્સ અને ટેક્નોલોજી  2 વર્ષ નો હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  	bot.reply(message,{
+        text:'એમ.સી.એ. 3 વર્ષ નો કોર્સ હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો\n\nઅહિયાં એમ.સી.એ. 2 રીતે થાય છે \n\n1.Regular  2.Lateral\n\n1.આ 3 વર્ષ નો કોર્સ હોય છે .અને આમાં 45 શીટ હોય છે\n\n2.આ કોર્સ 2 વર્ષ નો થાય છે અને આમાં પ્રવેશ માટે પરીક્ષા લેવા માં આવે છે  ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+			{
+                title: 'એમ.સી.એ. ફીસ',
+                payload: 'એમ.સી.એ. ફીસ'
+            },
+		]
+      },function() {});
   });
   controller.hears('એમ.બી.એ. ઇન રૂરલ મેનેજમેંટ','message_received', function(bot, message) {
-    bot.reply(message,'  એમ.બી.એ. ઇન રૂરલ મેનેજમેંટ  2 વર્ષ નો હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ');
+  	bot.reply(message,{
+        text:'એમ.બી.એ. ઇન રૂરલ મેનેજમેંટ  2 વર્ષ નો હોય છે \n\nસ્નાતક થયા પછી તમે આ કોર્સ માટે એપ્લાઈ કરી સકો છો ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });
   controller.hears('એમ.ફિલ. અને પી.એચડી.','message_received', function(bot, message) {
-    bot.reply(message,'અનુસ્નાતક થયા પછી તમે આ કોર્સ માં એપ્લાઈ કરી સકો છો.\n\nઆહિયા તમે  Education ,Gujarati ,Hindi ,Economics ,History ,Sociology ,Social Work ,Gandhian Thoughts ,Science and Non-violence ,Journalism and Mass Communication ,Library and Information Science ,Computer Science ,Microbiology ,Physical Education ,Rural Management ,Population Education ,Peace Studies & Conflict Resolution ,Adult Education આ બધા વિષય માં એમ.ફિલ. અને પી.એચડી. કરી સકો છો.');
+  	bot.reply(message,{
+        text:'અનુસ્નાતક થયા પછી તમે આ કોર્સ માં એપ્લાઈ કરી સકો છો.\n\nઆહિયા તમે  Education ,Gujarati ,Hindi ,Economics ,History ,Sociology ,Social Work ,Gandhian Thoughts ,Science and Non-violence ,Journalism and Mass Communication ,Library and Information Science ,Computer Science ,Microbiology ,Physical Education ,Rural Management ,Population Education ,Peace Studies & Conflict Resolution ,Adult Education આ બધા વિષય માં એમ.ફિલ. અને પી.એચડી. કરી સકો છો. ',
+        quick_replies: [
+            {
+                title: 'સિલેબસ ',
+                payload: 'સિલેબસ'
+            },
+			{
+                title: 'પ્રવેશ',
+                payload: 'પ્રવેશ'
+            },
+		]
+      },function() {});
   });  
 }
